@@ -1,0 +1,11 @@
+POST http://localhost:2000/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+    "first_name": "aschaley",
+    "last_name": "Ascheneke",
+    "age": 26
+}
+
+###
+GET http://localhost:2000/api/v1/users HTTP/1.1
